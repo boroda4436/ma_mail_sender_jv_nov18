@@ -14,7 +14,7 @@ public class AppConfig {
     private static final String MAIL_SMTP_AUTH = "mail.smtp.auth";
     private static final String MAIL_SMTP_STARTTLS_ENABLE = "mail.smtp.starttls.enable";
     private static final String MAIL_DEBUG = "mail.debug";
-    private static final String email = "bchupikatestmail@gmail.com";
+    private static final String email = "***@gmail.com";
     private static final String pass = "***";
     private static final String SMTP_GMAIL_COM = "smtp.gmail.com";
 
