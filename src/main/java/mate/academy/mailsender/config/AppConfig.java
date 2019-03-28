@@ -23,6 +23,7 @@ public class AppConfig {
         JavaMailSenderImpl ms = new JavaMailSenderImpl();
         ms.setHost(SMTP_GMAIL_COM);
         ms.setPort(587);
+
         ms.setUsername(email);
         ms.setPassword(pass);
         Properties props = ms.getJavaMailProperties();
