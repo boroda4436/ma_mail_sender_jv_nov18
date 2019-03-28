@@ -10,13 +10,13 @@ import java.util.Properties;
 @Configuration
 public class AppConfig {
 
-    public static final String MAIL_TRANSPORT_PROTOCOL = "mail.transport.protocol";
-    public static final String MAIL_SMTP_AUTH = "mail.smtp.auth";
-    public static final String MAIL_SMTP_STARTTLS_ENABLE = "mail.smtp.starttls.enable";
-    public static final String MAIL_DEBUG = "mail.debug";
-    public static final String email = "***@gmail.com";
-    public static final String pass = "***";
-    public static final String SMTP_GMAIL_COM = "smtp.gmail.com";
+    private static final String MAIL_TRANSPORT_PROTOCOL = "mail.transport.protocol";
+    private static final String MAIL_SMTP_AUTH = "mail.smtp.auth";
+    private static final String MAIL_SMTP_STARTTLS_ENABLE = "mail.smtp.starttls.enable";
+    private static final String MAIL_DEBUG = "mail.debug";
+    private static final String email = "bchupikatestmail@gmail.com";
+    private static final String pass = "***";
+    private static final String SMTP_GMAIL_COM = "smtp.gmail.com";
 
     @Bean
     public JavaMailSender mailSender() {
