@@ -11,7 +11,6 @@ public class SendMailResponse {
     private List<String> errors;
 
     public enum Status {
-
         OK(0),
         ERROR(400);
 
