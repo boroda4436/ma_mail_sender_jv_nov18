@@ -13,7 +13,7 @@
     <groupId>mate.academy</groupId>
     <artifactId>mailsender</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mailsender</name>
+    <name>mate.academy.mailsender</name>
     <description>Mail sender project for youtube bot</description>
 
     <properties>
